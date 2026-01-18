@@ -1,0 +1,66 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.venv/
+venv/
+env/
+
+# ------------------------
+# UV (Astral) cache
+# ------------------------
+.uv/
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# ML models & artifacts
+# ------------------------
+*.joblib
+*.pickle
+*.pkl
+*.h5
+*.onnx
+
+# ------------------------
+# Data files (raw data)
+# ------------------------
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.json
+
+# Men spara städad data om du vill:
+# !data/cleaned_taxi_data.csv
+
+# ------------------------
+# VSCode
+# ------------------------
+.vscode/
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Build artifacts
+# ------------------------
+dist/
+build/
+*.whl
