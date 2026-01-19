@@ -1589,6 +1589,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "fastapi" },
+    { name = "httpx" },
     { name = "joblib" },
     { name = "notebook" },
     { name = "numpy" },
@@ -1601,6 +1602,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "fastapi", specifier = ">=0.128.0" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "joblib", specifier = ">=1.5.3" },
     { name = "notebook", specifier = ">=7.5.2" },
     { name = "numpy", specifier = ">=2.4.1" },
